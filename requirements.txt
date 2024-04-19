@@ -1,0 +1,7 @@
+nnAudio
+torch
+numpy
+librosa
+scipy
+pretty_midi
+mir_eval
