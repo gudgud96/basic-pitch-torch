@@ -34,12 +34,13 @@ In `tests/` we show two levels of validation tests using a test audio from [Guit
 
     ```
     Contour abs diff - max: 0.0003006, min: 0.0, avg: 5.863e-06
-    Onset abs diff - max: 0.0002712, min: 0.0, avg: 1.431e-05
-    Note abs diff - max: 0.0002297, min: 0.0, avg: 6.6e-06
+    Onset abs diff   - max: 0.0002712, min: 0.0, avg: 1.431e-05
+    Note abs diff    - max: 0.0002297, min: 0.0, avg: 6.6e-06
     ```
     
  - **On MIDI transcription**
     - The transcribed MIDI using both TF and PT models are identical (see `midi_data_pt.mid` and `midi_data_tf.mid`)
 
-
+### References
+Bittner, Rachel M., et al. "A lightweight instrument-agnostic model for polyphonic note transcription and multipitch estimation." ICASSP 2022-2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, 2022.
 
